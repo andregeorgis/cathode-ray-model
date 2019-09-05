@@ -1,0 +1,40 @@
+**BACKUP FOR BACKGROUND**
+  //BORDER START
+  strokeWeight(10);
+  stroke(0);
+  line(720, 0, 720, 860);
+  line(0, 430, 720, 430);
+  //BORDER END
+  //SIDE VIEW START
+  strokeWeight(2);
+  noFill();
+  arc(580, 215, 200, 430, 1.7*PI, 2*PI);//SCREEN (RIGHT)
+  arc(580, 215, 200, 430, 0, 0.3*PI);//SCREEN (RIGHT)
+  bezier(637, 41, 380, 0, 380, 170, 230, 160);//BIG BEZIER TOP
+  bezier(637, 389, 380, 430, 380, 260, 230, 270);//BIG BEZIER BOTTOM
+  arc(30, 215, 10, 50, 0.5*PI, 1.5*PI);//BACK (LEFT)
+  line(30, 190, 80, 190);//CR BIG LINE TOP
+  line(30, 240, 80, 240);//CR BIG LINE BOTTOM
+  bezier(80, 190, 90, 190, 100, 160, 105, 160);//SMALL BEZIER TOP
+  bezier(80, 240, 90, 240, 100, 270, 105, 270);//SMALL BEZIER BOTTOM
+  line(105, 160, 230, 160);//EG SMALL LINE TOP
+  line(105, 270, 230, 270);//EG SMALL LINE BOTTOM
+  image(sideView, 0, -20, 200, 100);//TEXT
+  //SIDE VIEW END
+  //TOP VIEW START
+  arc(360, 730, 430, 200, 0.2 * PI, 0.8 * PI);
+  bezier(185, 787, 200, 650, 305, 600, 305, 535);
+  bezier(535, 787, 520, 650, 415, 600, 415, 535);
+  arc(360, 460, 50, 10, PI, 2*PI);
+  line(335, 460, 335, 510);
+  line(385, 460, 385, 510);
+  bezier(335, 510, 335, 520, 305, 530, 305, 535);
+  bezier(385, 510, 385, 520, 415, 530, 415, 535);
+  image(topView, -5, 420, 200, 100);
+  //TOP VIEW END
+  //FRONT VIEW START
+  rect(980, 330, 200, 200);
+  image(frontView, 735, -20, 200, 100);
+  //FRONT VIEW END
+  */
+##########################################################################################
